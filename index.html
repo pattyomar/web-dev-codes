@@ -1,325 +1,547 @@
 <!DOCTYPE html>
-<html>
-<title>Patricia O'Maroro</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-	.w3-bar .w3-bar-item {
-    padding: 8px 16px;
-    float: left;
-    width: auto;
-    border: none;
-    display: inline-grid;
-    grid-auto-flow: column;
-    column-gap: 10px;
-    align-items: center;
-    margin-right: 16px;
-    outline: 0;
-}
-</style>
-<body class="w3-light-grey">
-<!-- Navbar (sit on top) -->
-
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-  	<div class="w3-right w3-hide-small">
-      <a href="#overview" class="w3-bar-item w3-button">Overview</a>
-      <a href="#work-experience" class="w3-bar-item w3-button"><i class="fa fa-suitcase"></i>Work Experience</a>
-      <a href="#education" class="w3-bar-item w3-button"><i class="fa fa-certificate"></i>Education</a>
-      <a href="#extras" class="w3-bar-item w3-button"><i class="fa fa-futbol-o"></i>Extras</a>
-      <a href="#contact_me" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Contact Me</a>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Patricia O'Maroro's Resume.">
+    <meta name="author" content="Devcrud">
+    <title>Patricia O'Maroro</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">Patricia O'Maroro</h1>
+                <h6 class="header-mono" >Customer Support Specialist</h6>
+                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/avatar2.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Patricia O'Maroro</h5>
+                        <div class="brand-subtitle">Support Specialist | Client Success</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Experienced Customer Support professional with 4+ years of driving client growth for SaaS start-ups</h5>
+                <p class="mt-20">Proven success in delivering exceptional service, resolving complex inquiries, and building lasting relationships. Skilled in proactive engagement, active listening, and personalized solutions. Adaptable team player thriving in fast-paced environments. Proficient in managing customer lifecycles, exceeding KPIs. Strong written and verbal communication skills, utilizing CRM systems and ticketing tools effectively. Passionate about helping customers achieve their goals, leveraging insights for product improvements. Committed to delivering exceptional experiences and contributing to organizational success.</p>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Email</span> : info@patriciaomaroro.co.ke</li>
+                    <li><span>Location</span> :  Nairobi, Kenya.</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-light-bulb icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Solution Driven Support</h6>
+                       
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-settings icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Product Testing</h6>
+                        
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-folder icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Knowledge Base Management</h6>
+                        
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-hummer icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Troubleshooting</h6>
+                        
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-write icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Content Writing</h6>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-   </div>
-</div>
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">June 2021 - Present</h6>
+                            <P>Senior Customer Support Specialist</P>
+                            <P class="subtitle">The role involved proactive engagement with customers through Intercom and email, resolving over 100 conversations weekly, alongside maintaining a knowledge base of 10 articles for customer reference and handling VAT invoices and refunds. Additionally, conducting daily product walk-throughs and demos resulted in driving an average of $567 in monthly sales. Internally, responsibilities included creating and managing an internal knowledge base, conducting quality reviews to maintain a score above 95%, investigating product issues, and pitching feature ideas to the product team. Furthermore, the role entailed managing the training and onboarding of 5 new recruits over 3 months, providing mentorship and guidance on duties and best practices.</P>
+                            <hr>
+                            <h6 class="title text-danger">October 2019 - June 2021</h6>
+                            <P>Customer Support Agent</P>
+                            <P class="subtitle">In this role, the primary focus was on diagnosing and resolving up to 400 weekly customer tickets across various issues, while also efficiently processing over 250 orders weekly through Zendesk and Intercom. Collaborating with a team of 5, efforts were directed towards continuously improving the customer experience. Additionally, the position involved identifying and communicating product feature requests to the product team based on customer feedback, as well as providing support to customers with purchase, return, or product inquiries. Moreover, training and onboarding three new employees on technical and operational aspects of the job were essential responsibilities.</P>
+                            <hr>
+                            <h6 class="title text-danger">January 2018 - Present</h6>
+                            <P>Part-time SEO Content Specilaist</P>
+                            <P class="subtitle">In this role, responsibilities included sending quarterly content proposals featuring six blog post topic ideas, followed by researching and creating up to six blog posts for three websites each. Additionally, tasks involved proofreading existing content, advocating for and educating others about services, and maximizing site traffic through the strategic use of Search Engine Optimization keywords.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2013 - 2017</h6>
+                            <P>B.A Economics and Sociology</P>
+                            <P class="subtitle">During my pursuit of a B.A. in Economics and Sociology, I engaged deeply in interdisciplinary study, gaining a comprehensive understanding of economic principles and societal dynamics. Through rigorous coursework, I developed analytical skills to assess complex social and economic issues, conducting research on topics such as statistical analysis, business strategies in e-commerce and . Additionally, I applied theoretical frameworks to real-world scenarios, fostering a nuanced perspective on global economic trends and their impact on diverse communities. My academic journey equipped me with the ability to critically analyze customer data and communicate their findings effectively, understand Saas business metrics and propose innovative solutions to reduce churn</P>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Email & Chat Support</h6> 
+                           <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                           <h6>Zendesk</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                            <h6>Intercom</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>HTML & CSS</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Chrome Developer Tools</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Swahili</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Left Column -->
-    <div class="w3-third">
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">95</h1>
+                            <p class="text-light mb-1">CSAT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-comments icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">120</h1>
+                            <p class="text-light mb-1">Conversations solved/Week</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-book icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">73</h1>
+                            <p class="text-light mb-1">Articles published</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-world icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">5</h1>
+                            <p class="text-light mb-1">Countries Travelled</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="IMG_20200711_154243.jpg" style="width:100%" alt="Picture Head">
-          <div class="w3-display-bottomleft w3-container w3-text-dark-grey">
-            <h2><span class="w3-tag w3-teal w3-round">Patricia Nyamotai O'Maroro</span></h2>
-          </div>
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">I Am Available For Freelance</h2>
+            <button class="btn btn-outline-danger" ><a href="#contact">HIRE ME</a></button>
         </div>
-        <div class="w3-container">
-        	<h3 id="overview">Overview</h3>
-        	<p>Dedicated Customer Support Agent with 1+ years in bettering the customer experience through reliable product education, timely assistance, helpful feedback, and respectful conflict management response. Confident communicator with the ability to lead colleagues, respond to customer inquiries, and mediate conflict. Consistently maintained a 90% and over customer satisfaction score. Part-time writer specializing in legal matters.</p> 
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Customer Support Agent</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Nairobi, Kenya</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="mailto:epatroma@gmail.com">epatroma@gmail.com</a></p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="tel:+254720909560" class="menu-link"><span class="text-wrap">(+254)720-909-560</span></a></p>
-          <hr>
+    </section>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Zendesk</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div>
-          </div>
-          <p>Intercom</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div>
-          </div>
-          <p>Python</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <p>Basic HTML</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <p>Basic CSS</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <p>Chrome Dev Tools</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          
-          <br>
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My </span>Portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        New
+                    </a>
+                    <a href="#" data-filter=".content-writing">
+                        Content Writing
+                    </a>
+                    <a href="#" data-filter=".data-analysis">
+                        Data Analysis
+                    </a>
+                    <a href="#" data-filter=".web">
+                        Web
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-dev2.jpg" class="img-fluid" alt="web-dev2">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-dev2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Javascript</h6>
+                                    <!--insert description of project in <p> tag-->
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="web-1">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Personal Site</h6>
+                                    <!--insert description of project in <p> tag-->
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="web-2">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WordPress Site</h6>
+                                    <!--insert description of project in <p> tag-->
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 content-writing">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="content-writing">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Content Writing</h6>
+                                    <!--insert description of project in <p> tag-->
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    
+                    <div class="col-md-6 col-lg-4 data-analysis">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="branding-3">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">KPMG</h6>
+                                    <!--insert description of project in <p> tag-->
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 data-analysis">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="branding-4">                      
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Quantium</h6>
+                                    <!--insert description of project in <p> tag-->
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div> 
+                    
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-center w3-teal" style="width:100%">100%</div>
-          </div>
-          <br>
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">My Blog: <span class="text-danger">Around The World in Kenyan Days</span></h2>
+            <div class="row">
+                <div class='sk-ww-rss-feed' data-embed-id='25363310'></div><script src='https://widgets.sociablekit.com/rss-feed/widget.js' async defer></script>
+                
+
+                <!-- blog-card 
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div> 
+                    <div class="content-holder">
+                        <h6 class="title">Explicabo illo</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div> end of blog wrapper 
+                 blog-card 
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Porro Quisqua</h4>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
+                            <a href="#"><i class="ti-comment"></i> 312</a>
+                        </p>
+                        
+                        <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div> end of blog wrapper -->
+
+            </div>
         </div>
-        </div><br>
-    <!-- End Left Column -->
+    </section>
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Nairobi, Kenya</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@patriciaomaroro.co.ke</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-linkedin icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">LinkedIn :<br> <span class="text-muted"><a href="https://www.linkedin.com/in/patricia-o-maroro-b21084103/">Patricia O'Maroro</a></span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-github icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Github :<br><span class="text-muted"><a href="https://github.com/pattyomar">Patty Omar</a></span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+            </p>
+        </div>
+    </footer>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
     
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16" id="work-experience"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Customer Support Agent - <a target="_blank" href="http://Influx.com">Influx</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <ul>
-			<li>Diagnose and solve the customers’ problems</li>
-			<li>Communicate effectively via email and chat through various helpdesks</li>
-			<li>Work with team members to enhance and evolve the customer experience</li>
-			<li>Identify product feature requests to submit to the product team based on customer feedback</li>
-			<li>Support customers with purchase, return, or product inquiries</li>
-			<li>Contribute to a high-performance and friendly workplace culture</li>
-		</ul>
-          <hr>
-        </div>
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
 
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Content Writer - <a target="_blank" href="http://unrth.com">The Valours Creative Innovation LLC</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2018 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <ul>
-			<li>Copywriting</li>
-			<li>Generating, researching, and pitching ideas for posts</li>
-			<li>Writing, editing, and proofreading content</li>
-			<li>Advocating and educating others about services</li>
-			<li>Maximizing site traffic by utilizing Search Engine Optimization keywords</li>
-			<li>Creating posts per prescribed editorial and formatting guidelines</li>
-		</ul>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Planning and Quality Assurance Assistant - <a target="_blank" href="https://kephis.org/">KEPHIS</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2018 - Oct 2019</h6>
-          <ul>
-			<li>Compiling quality audit, monthly M&E, and customer satisfaction survey reports</li>
-			<li>Conducting internal quality audits</li>
-			<li>Assist auditees in determining corrective actions for their non-conformities</li>
-			<li>Assist staff members to identify risks and opportunities in their respective departments</li>
-			<li>Assist in reviewing and implementing departmental tools (Service Charter Timelines, Workplan, PC, Standard Operating Procedures, e.t.c)</li>
-			<li>Conducting follow up Quality Management System assessment activities</li>
-			<li>Conducting Mid-term and End-term M&E at various stations</li>
-			<li>Analysis of monthly, quarterly trends in workplan activities and targets</li>
-			<li>Conducting staff awareness training on QMS, M&E, Risk management, and departmental tools</li>
-			<li>Performing administrative duties (Organizing and maintaining records, printing, data entry, e.t.c)</li>
-			<li>Assist in planning and coordinating sectional meetings and training</li>
-		</ul>
-          <hr>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16" id="education"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b><a target="_blank" href="https://www.egerton.ac.ke">Egerton University</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2013 - Dec 2017</h6>
-          <p>Bachelor of Arts (Economics and Sociology)</p>
-          <hr>
-        </div>
-        <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16" id="extras"><i class="fa fa-futbol-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Extra Curricular & Academic Activities</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Quantium Analytics Virtual Experience Program</b>
-           <div class="w3-right">
-          	<a target ="_blank" href="https://github.com/pattyomar/Data-science-projects/tree/master/Retail%20Analytics%20for%20Chips">Full project here...</a>
-          </div>
-          </h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2020 - Sep 2020</h6>
-          <p>Participated in the open-access Quantium Analytics Virtual Experience Program with InsideSherpa. Tasks Completed:
-          </p>
-          <ul>
-			<li>Task 1 - Data preparation and customer analytics</li>
-			<li>Task 2 - Experimentation and uplift testing</li>
-			<li>Task 3 - Analytics and commercial application</li>
-		</ul>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>KPMG Data Analytics Consulting Virtual Internship </b>
-          	<div class="w3-right">
-          <a target="_blank" href="https://github.com/pattyomar/Data-science-projects/tree/master/SPRocket%20Central">Full project here...</a>
-      	</div>
-      	</h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2020 - Sep 2020</h6>
-          <p>Participated in the open-access KPMG Data Analytics Consulting Virtual Internship with Forage. Tasks Completed
-          </p>
-          <ul>
-			<li>Task 1 - Data Quality Assessment</li>
-			<li>Task 2 - Data Insights</li>
-			<li>Task 3 - Data Insights and Presentation</li>
-		 </ul>
-          <hr>
-
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-    <style type="text/css">
-		}
-		form, button{border:0; margin:0; padding:0;}
-		.spacer{clear:both; height:1px;}
-		/* ----------- My Form ----------- */
-		.myform{
-			width:400px;
-			padding:14px;
-		    display: flex;
-  			flex-direction: column;
-		}
-
-		/* ----------- basic ----------- */
-		#basic{
-				border:solid 2px #DEDEDE;	
-			}
-		#basic label{
-				display:block;
-				font-weight:bold;
-				text-align:left;
-				width:140px;
-				float:left;
-			}
-		#basic .small{
-				color:#666666;
-				display:block;
-				font-size:11px;
-				font-weight:normal;
-				text-align:left;
-				width:140px;
-			}
-			#basic input{
-				float:left;
-				width:200px;
-				margin:2px 0 30px 10px;
-				resize: vertical;
-			}
-			#basic button{ 
-			    margin-left:160px
-				background:#008080;
-				text-align:center;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-			}
-		/* ----------- stylized ----------- */
-			#stylized{
-				border:solid 2px #b7ddf2;
-				background:#f5f2f9;}
-			#stylized label{
-				font-weight:bold;
-				text-align:left;
-				width:140px;
-				float:left;
-				padding: 12px 12px 12px 0;
-                display: inline-block;
-			}
-			#stylized .small{
-				color:#666666;
-				display:block;
-				font-size:11px;
-				font-weight:normal;
-				text-align:left;
-				width:140px;
-			}
-			#stylized input{
-				float:left;
-				font-size:12px;
-				padding:4px 2px;
-				border:solid 1px #aacfe4;
-				width:200px;
-				margin:2px 0 20px 10px;
-			    resize:vertical;
-			}
-			#stylized button{ 
-				background:#008080;
-				margin;auto;
-				text-align:center;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-			}
-			@media screen and (max-width: 600px) {
-            .myform, button {
-            width: 100%;
-            margin-top: 0;
-            }
-			}
-
-		</style>
-		    <div class="w3-container w3-card w3-white">
-		          <div id="stylized" class="myform">
-		        	<h3 id="contact_me">Contact Me</h3>
-		            <form id="form1" action="mail.php" method="POST">
-
-		    <label>Name</label><input type="text" name="name">
-			
-		    <label>Email</label><input type="text" name="email">
-		    
-			<label>Subject</label><input type="text" name="subject">
-			
-		    <label>Message</label><textarea name="message" rows="3" cols="20" style="border:solid 1px #aacfe4; margin:2px 0 20px 10px; padding:4px 2px;"></textarea>
-		    
-		    <button type="submit" value="Send" class="w3-teal">Submit</button>
-		    <div class="spacer"></div>
-		</form></div>
-        </div>
-        <hr>
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on Social Media</p>
-  <a href="https://www.linkedin.com/in/patricia-o-maroro-b21084103" target = "_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  
-  <a href="https://github.com/pattyomar" target = "_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-
-</footer>
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
 
 </body>
 </html>
